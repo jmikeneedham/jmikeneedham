@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Style>
+body{
+  /* General Page attributes */
+  background:#000;
+  font-family: 'Orbitron', sans-serif;
+  text-transform:uppercase;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+.container {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: doroll 20s linear infinite;
+  -moz-animation: doroll 20s linear infinite;
+}
+
+h1 {color: purple;}
+h2,p {color: teal;}
+
+@keyframes doroll {
+  0% {
+     transform: translate(0px,0px);
+  }
+  100% {
+     transform: translate(0px,-600px);
+  }
+}
+@-moz-keyframes doroll {
+  0% {
+     transform: translate(0,0);
+  }
+  100% {
+     transform: translate(0,-100);
+  }
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Basic Setup test</h1>
+    <h2>test header 2</h2>
+    <p>lorum ipsum etc.</p>
+    <p>lorum ipsum</p>
+    <p>lorum ipsum reductum</p>
+    <p> more stuff and things </p>
+    <p><img src="Digital-Patreon-Logo_FieryCoral.png" height=100 width=100/></p>
+    <p><img src="logo-color.png"/></p>
+  </div>
+</body>
+</html>
