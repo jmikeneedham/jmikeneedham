@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @jmikeneedham
 - 👀 Interests include audio and programming.
-- 🌱 I’m currently learning Electron, ZSH and other languages.
+- 🌱 I’m currently using Electron,Rust, Haskell and Web Languages.
 - 📫 jmikeneedham@gmail.com
 
 <!---
